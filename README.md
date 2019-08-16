@@ -1,9 +1,21 @@
 ember-auto-font-size
 ==============================================================================
-
-[Short description of the addon.]
-
-
+Component where font-size calculate for fill container
+```
+<AutoFontSize style="height:100px; width:200px;">
+  <span>
+    test1
+  </span>
+</AutoFontSize>
+```
+or
+```
+<div style="height:100px; width:200px;">
+  <TextFill>
+    test2
+  </TextFill>
+</div>
+```
 Compatibility
 ------------------------------------------------------------------------------
 
