@@ -1,13 +1,16 @@
 {
   "name": "ember-auto-font-size",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember component where font-size calculate for fill container.",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaxinr/ember-auto-font-size.git"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Ramil Gilfanov",
   "directories": {
     "doc": "doc",
     "test": "tests"
