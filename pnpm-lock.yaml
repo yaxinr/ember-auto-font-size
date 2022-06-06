@@ -4,15 +4,14 @@ specifiers:
   '@ember/optional-features': ^2.0.0
   broccoli-asset-rev: ^3.0.0
   ember-cli: ~4.4.0
-  ember-cli-babel: ^7.7.3
-  ember-cli-dependency-checker: ^3.1.0
+  ember-cli-babel: ^7.26.11
+  ember-cli-dependency-checker: ^3.3.1
   ember-cli-htmlbars: ^6.0.1
-  ember-cli-htmlbars-inline-precompile: ^3.0.2
   ember-cli-inject-live-reload: ^2.1.0
   ember-cli-sri: ^2.1.1
   ember-disable-prototype-extensions: ^1.1.3
-  ember-export-application-global: ^2.0.0
-  ember-load-initializers: ^2.0.0
+  ember-export-application-global: ^2.0.1
+  ember-load-initializers: ^2.1.2
   ember-maybe-import-regenerator: ^1.0.0
   ember-qunit: ^5.1.5
   ember-resolver: ^8.0.3
@@ -33,7 +32,6 @@ devDependencies:
   broccoli-asset-rev: 3.0.0
   ember-cli: 4.4.0
   ember-cli-dependency-checker: 3.3.1_ember-cli@4.4.0
-  ember-cli-htmlbars-inline-precompile: 3.0.2_ember-cli-babel@7.26.11
   ember-cli-inject-live-reload: 2.1.0
   ember-cli-sri: 2.1.1
   ember-disable-prototype-extensions: 1.1.3
@@ -1364,7 +1362,7 @@ packages:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 17.0.38
+      '@types/node': 17.0.40
     dev: true
 
   /@types/chai-as-promised/7.1.5:
@@ -1384,7 +1382,7 @@ packages:
   /@types/connect/3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 17.0.38
+      '@types/node': 17.0.40
     dev: true
 
   /@types/cookie/0.4.1:
@@ -1398,7 +1396,7 @@ packages:
   /@types/express-serve-static-core/4.17.28:
     resolution: {integrity: sha512-P1BJAEAW3E2DJUlkgq4tOL3RyMunoWXqbSCygWo5ZIWTjUgN1YnaXWW4VWl/oc8vs/XoYibEGBKP0uZyF4AHig==}
     dependencies:
-      '@types/node': 17.0.38
+      '@types/node': 17.0.40
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
     dev: true
@@ -1415,19 +1413,19 @@ packages:
   /@types/fs-extra/5.1.0:
     resolution: {integrity: sha512-AInn5+UBFIK9FK5xc9yP5e3TQSPNNgjHByqYcj9g5elVBnDQcQL7PlO1CIRy2gWlbwK7UPYqi7vRvFA44dCmYQ==}
     dependencies:
-      '@types/node': 17.0.38
+      '@types/node': 17.0.40
 
   /@types/fs-extra/8.1.2:
     resolution: {integrity: sha512-SvSrYXfWSc7R4eqnOzbQF4TZmfpNSM9FrSWLU3EUnWBuyZqNBOrv1B1JA3byUDPUl9z4Ab3jeZG2eDdySlgNMg==}
     dependencies:
-      '@types/node': 17.0.38
+      '@types/node': 17.0.40
     dev: true
 
   /@types/glob/7.2.0:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 3.0.5
-      '@types/node': 17.0.38
+      '@types/node': 17.0.40
 
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
@@ -1436,7 +1434,7 @@ packages:
   /@types/keyv/3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 17.0.38
+      '@types/node': 17.0.40
     dev: true
 
   /@types/mime/1.3.2:
@@ -1446,8 +1444,8 @@ packages:
   /@types/minimatch/3.0.5:
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
 
-  /@types/node/17.0.38:
-    resolution: {integrity: sha512-5jY9RhV7c0Z4Jy09G+NIDTsCZ5G0L5n+Z+p+Y7t5VJHM30bgwzSjVtlcBxqAj+6L/swIlvtOSzr8rBk/aNyV2g==}
+  /@types/node/17.0.40:
+    resolution: {integrity: sha512-UXdBxNGqTMtm7hCwh9HtncFVLrXoqA3oJW30j6XWp5BH/wu3mVeaxo7cq5benFdBw34HB3XDT2TRPI7rXZ+mDg==}
 
   /@types/qs/6.9.7:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
@@ -1460,20 +1458,20 @@ packages:
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 17.0.38
+      '@types/node': 17.0.40
     dev: true
 
   /@types/rimraf/2.0.5:
     resolution: {integrity: sha512-YyP+VfeaqAyFmXoTh3HChxOQMyjByRMsHU7kc5KOJkSlXudhMhQIALbYV7rHh/l8d2lX3VUQzprrcAgWdRuU8g==}
     dependencies:
       '@types/glob': 7.2.0
-      '@types/node': 17.0.38
+      '@types/node': 17.0.40
 
   /@types/serve-static/1.13.10:
     resolution: {integrity: sha512-nCkHGI4w7ZgAdNkrEu0bv+4xNV/XDqW+DydknebMOQwkpDGx8G+HTlj7R7ABI8i8nKxVw0wtKPi1D+lPOkh4YQ==}
     dependencies:
       '@types/mime': 1.3.2
-      '@types/node': 17.0.38
+      '@types/node': 17.0.40
     dev: true
 
   /@types/symlink-or-copy/1.2.0:
@@ -2099,11 +2097,6 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /babel-plugin-htmlbars-inline-precompile/2.1.1:
-    resolution: {integrity: sha512-obo5//IFrEZNAQovcXxOXLn5nwkQ0Y+xhR7AMg1sYR6W7KxQLZI9/XzbIytVhjwwY+Bd2e0+qyHEplJbHyZ1Og==}
-    engines: {node: 8.* || 10.* || >= 12.*}
-    dev: true
-
   /babel-plugin-htmlbars-inline-precompile/5.3.1:
     resolution: {integrity: sha512-QWjjFgSKtSRIcsBhJmEwS2laIdrA6na8HAlc/pEAhjHgQsah/gMiBFRZvbQTy//hWxR4BMwV7/Mya7q5H8uHeA==}
     engines: {node: 10.* || >= 12.*}
@@ -2238,7 +2231,7 @@ packages:
   /backbone/1.4.1:
     resolution: {integrity: sha512-ADy1ztN074YkWbHi8ojJVFe3vAanO/lrzMGZWUClIP7oDD/Pjy2vrASraUP+2EVCfIiTtCW4FChVow01XneivA==}
     dependencies:
-      underscore: 1.13.3
+      underscore: 1.13.4
     dev: true
 
   /balanced-match/1.0.2:
@@ -2925,7 +2918,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001346
-      electron-to-chromium: 1.4.144
+      electron-to-chromium: 1.4.146
       escalade: 3.1.1
       node-releases: 2.0.5
       picocolors: 1.0.0
@@ -3976,8 +3969,8 @@ packages:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
     dev: true
 
-  /electron-to-chromium/1.4.144:
-    resolution: {integrity: sha512-R3RV3rU1xWwFJlSClVWDvARaOk6VUO/FubHLodIASDB3Mc2dzuWvNdfOgH9bwHUTqT79u92qw60NWfwUdzAqdg==}
+  /electron-to-chromium/1.4.146:
+    resolution: {integrity: sha512-4eWebzDLd+hYLm4csbyMU2EbBnqhwl8Oe9eF/7CBDPWcRxFmqzx4izxvHH+lofQxzieg8UbB8ZuzNTxeukzfTg==}
 
   /elliptic/6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
@@ -4128,24 +4121,6 @@ packages:
 
   /ember-cli-get-component-path-option/1.0.0:
     resolution: {integrity: sha512-k47TDwcJ2zPideBCZE8sCiShSxQSpebY2BHcX2DdipMmBox5gsfyVrbKJWIHeSTTKyEUgmBIvQkqTOozEziCZA==}
-    dev: true
-
-  /ember-cli-htmlbars-inline-precompile/3.0.2_ember-cli-babel@7.26.11:
-    resolution: {integrity: sha512-A2N8HYytnzjCqBRw9jUX2WFGbECcZiwrcDE9lkfCQG0JLhCFnleRXFFPp4Wlqu08zqxfxKPDvLgseKYjlLmHFQ==}
-    engines: {node: 8.* || 10.* || >= 12.*}
-    deprecated: Use ember-cli-htmlbars instead.
-    peerDependencies:
-      ember-cli-babel: ^7.0.0
-    dependencies:
-      babel-plugin-htmlbars-inline-precompile: 2.1.1
-      ember-cli-babel: 7.26.11
-      ember-cli-version-checker: 3.1.3
-      hash-for-dep: 1.5.1
-      heimdalljs-logger: 0.1.10
-      semver: 6.3.0
-      silent-error: 1.1.1
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /ember-cli-htmlbars/6.0.1:
@@ -4641,7 +4616,7 @@ packages:
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.12
-      '@types/node': 17.0.38
+      '@types/node': 17.0.40
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.4.2
@@ -5703,7 +5678,7 @@ packages:
       source-map: 0.6.1
       wordwrap: 1.0.0
     optionalDependencies:
-      uglify-js: 3.15.5
+      uglify-js: 3.16.0
     dev: true
 
   /has-ansi/2.0.0:
@@ -9319,8 +9294,8 @@ packages:
     resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
     dev: true
 
-  /uglify-js/3.15.5:
-    resolution: {integrity: sha512-hNM5q5GbBRB5xB+PMqVRcgYe4c8jbyZ1pzZhS6jbq54/4F2gFK869ZheiE5A8/t+W5jtTNpWef/5Q9zk639FNQ==}
+  /uglify-js/3.16.0:
+    resolution: {integrity: sha512-FEikl6bR30n0T3amyBh3LoiBdqHRy/f4H80+My34HOesOKyHfOsxAPAxOoqC0JUnC1amnO0IwkYC3sko51caSw==}
     engines: {node: '>=0.8.0'}
     hasBin: true
     requiresBuild: true
@@ -9341,8 +9316,8 @@ packages:
       sprintf-js: 1.1.2
       util-deprecate: 1.0.2
 
-  /underscore/1.13.3:
-    resolution: {integrity: sha512-QvjkYpiD+dJJraRA8+dGAU4i7aBbb2s0S3jA45TFOvg2VgqvdCDd/3N6CqA8gluk1W91GLoXg5enMUx560QzuA==}
+  /underscore/1.13.4:
+    resolution: {integrity: sha512-BQFnUDuAQ4Yf/cYY5LNrK9NCJFKriaRbD9uR1fTeXnBeoa97W0i41qkZfGO9pSo8I5KzjAcSY2XYtdf0oKd7KQ==}
     dev: true
 
   /unicode-canonical-property-names-ecmascript/2.0.0:
