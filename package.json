@@ -1,6 +1,6 @@
 {
   "name": "ember-auto-font-size",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Ember component where font-size calculate for fill container.",
   "keywords": [
     "ember-addon"
